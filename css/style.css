@@ -11,7 +11,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4{
     text-align: center;
     margin: 0;
 }
@@ -28,6 +29,7 @@ h3 {
     font-size: 24px;
     opacity: 0.7;
 }
+
 
 .navigation-links {
     display: flex;
@@ -98,10 +100,16 @@ p {
 }
 
 .img-fluid {
-    width: 100;
+   max-width: 100;
     height: auto;
 }
 
 .shadow {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+@media (max-width:576px){
+ img{
+    display:none;
+ }
 }
